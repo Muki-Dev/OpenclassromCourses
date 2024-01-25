@@ -12,6 +12,10 @@
     text-decoration: none;
  }
 
+ a:hover{
+    text-decoration: underline;
+ }
+
  /* em */
  em{
     color: #a5b4fc;
@@ -36,6 +40,7 @@
     background-color: #ffffff;
  }
 
+
  /* paragraphs,list */
  p,
  li{
@@ -55,4 +60,14 @@
     background: linear-gradient(#8E86B5,#ACAEED);
     color: white;
     border-radius: 50px;
+}
+
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+/* .liens-icone */
+.liens-icone:hover{
+    opacity: 0.5;
 }
