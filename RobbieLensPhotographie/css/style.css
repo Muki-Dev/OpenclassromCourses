@@ -8,7 +8,7 @@
 
  /* anchor */
  a{
-    color: black;
+    color: #242424;
     text-decoration: none;
  }
 
@@ -25,13 +25,21 @@
     font-family: 'Montserrat',sans-serif;
  }
 
- /* div */
- div{
+ /* h2 */
+ h2{
+    color: #f9f8ff;
+ }
+
+ /* .entete,.pied-de-page */
+ .entete,
+ .pied-de-page{
     background-color: #ffffff;
  }
 
- /* p,ul,h2 */
- p,ul,h2{
+ /* paragraphs,list */
+ p,
+ li{
+    font-size: 1.1em;
     color: #F9F8FF;
  }
 
@@ -39,6 +47,5 @@
 /* .cta */
 .cta{
     background: linear-gradient(#8E86B5,#ACAEED);
-    font-family: 'Manrope',sans-serif;
     color: white;
 }
