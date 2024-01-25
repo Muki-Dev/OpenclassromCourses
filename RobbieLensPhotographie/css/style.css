@@ -3,6 +3,7 @@
     /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color: #1F2039;
  }
 
  /* anchor */
@@ -22,4 +23,9 @@
     font-size: 3.5em;
     color: #a5b4fc;
     font-family: 'Montserrat',sans-serif;
+ }
+
+ /* div */
+ div{
+    background-color: #ffffff;
  }
