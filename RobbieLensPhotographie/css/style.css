@@ -29,3 +29,8 @@
  div{
     background-color: #ffffff;
  }
+
+ /* p,ul,h2 */
+ p,ul,h2{
+    color: #F9F8FF;
+ }
