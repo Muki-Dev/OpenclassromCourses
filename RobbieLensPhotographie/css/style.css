@@ -39,3 +39,10 @@
 .liens{
     color: #242424;
 }
+
+/* .cta */
+.cta{
+    background: linear-gradient(#8E86B5,#ACAEED);
+    font-family: 'Manrope',sans-serif;
+    color: white;
+}
