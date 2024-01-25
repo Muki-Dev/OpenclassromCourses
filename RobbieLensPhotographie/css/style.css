@@ -67,7 +67,7 @@
     text-decoration: none;
 }
 
-/* .liens-icone */
-.liens-icone:hover{
+/* .liens-icones */
+.liens-icones:hover{
     opacity: 0.5;
 }
