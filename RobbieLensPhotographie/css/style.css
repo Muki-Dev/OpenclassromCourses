@@ -1,3 +1,7 @@
+ /* universal selector */
+ *{
+   margin: 0;
+ }
  /* body */
  body{
     /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
@@ -34,11 +38,54 @@
     color: #f9f8ff;
  }
 
+
+ /* nav a */
+ nav a{
+   margin-left: 30px;
+ }
+
+ /* .accueil-introduction */
+ .accueil-introduction{
+   display: flex;
+   flex-direction: row;
+   width: 50%;
+   align-items: center;
+   margin: auto;
+ }
+
+ /* .accueil-photos */
+ .accueil-photos{
+   background-color: white;
+   padding: 80px;
+ }
+ 
+ .accueil-photos h2{
+   color: #242424;
+   text-align: center;
+   margin-bottom: 80px;
+ }
+
+ .accueil-photos div {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   justify-content: center;
+   margin-bottom: 15px;
+ }
  /* header,footer */
  header,
  footer{
     background-color: #ffffff;
     padding: 20px 50px;
+ }
+
+ /* footer,nav */
+ footer,
+ nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
  }
 
 
@@ -81,6 +128,10 @@
 /* .liens-icones */
 .liens-icones:hover{
     opacity: 0.5;
+}
+
+.liens-icones{
+   margin-left: 30px;
 }
 
 /* section */
