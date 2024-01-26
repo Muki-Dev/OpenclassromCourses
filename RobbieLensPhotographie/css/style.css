@@ -34,9 +34,9 @@
     color: #f9f8ff;
  }
 
- /* .entete,.pied-de-page */
- .entete,
- .pied-de-page{
+ /* header,footer */
+ header,
+ footer{
     background-color: #ffffff;
  }
 
